@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Memoh desktop plugin index",
+    "zh": "Memoh 桌面插件索引"
+  },
+  "description": {
+    "en": "Live X11 desktop plugin for DeepSeek Harness, installed from a pinned Git commit.",
+    "zh": "DeepSeek Harness 的实时 X11 桌面插件，从钉死的 Git 提交安装。"
+  },
+  "metadata": {
+    "categories": {
+      "desktop": {
+        "title": {
+          "en": "Desktop",
+          "zh": "桌面"
+        }
+      }
+    },
+    "labels": {
+      "x11": {
+        "title": {
+          "en": "X11",
+          "zh": "X11"
+        }
+      },
+      "live": {
+        "title": {
+          "en": "Live view",
+          "zh": "实时画面"
+        }
+      },
+      "control": {
+        "title": {
+          "en": "Remote control",
+          "zh": "远程操控"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-memoh-desktop",
+      "title": {
+        "en": "Memoh desktop",
+        "zh": "Memoh 桌面"
+      },
+      "description": {
+        "en": "Live X11 desktop in the right sidebar of DeepSeek Harness, with optional mouse and keyboard control.",
+        "zh": "在 DeepSeek Harness 右侧栏实时显示 X11 桌面，可选地转发鼠标与键盘操作。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNiIgeT0iOSIgd2lkdGg9IjUyIiBoZWlnaHQ9IjM3IiByeD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjQ3YmJmIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cmVjdCB4PSIxMSIgeT0iMTQiIHdpZHRoPSI0MiIgaGVpZ2h0PSIyNyIgcng9IjEiIGZpbGw9IiMyNDdiYmYiIG9wYWNpdHk9IjAuMTYiLz4KICA8cGF0aCBkPSJNMzIgNDZ2NyIgc3Ryb2tlPSIjMjQ3YmJmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yMiA1NGgyMCIgc3Ryb2tlPSIjMjQ3YmJmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yMCAxOWwxNCAxMy02IDEgMyA2LTQgMi0zLTYtNCAzeiIgZmlsbD0iIzI0N2JiZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/wangdada8208/dsh-plugin-memoh-desktop",
+      "repository": {
+        "url": "https://github.com/wangdada8208/dsh-plugin-memoh-desktop"
+      },
+      "metadata": {
+        "category": "desktop",
+        "keywords": [
+          "dsh",
+          "desktop",
+          "x11",
+          "screenshot",
+          "remote-control",
+          "sidebar"
+        ],
+        "labels": [
+          "x11",
+          "live",
+          "control"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794412280,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/wangdada8208/dsh-plugin-memoh-desktop",
+            "commit": "37a3eac84a2c08d4ea63589ee538cd3ae71a296c"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1"
+          }
+        }
+      ]
+    }
+  ]
+}
